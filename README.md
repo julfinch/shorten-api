@@ -245,7 +245,31 @@
 16. As a precaution, I just moved those 2 files that is inside it to another folder that I just made named **yarn and package json**. I wrote `yarn` again in the terminal but still the same error exists. Then I remembered that another `package.json` was created inside `webdev1_Jul\REACT\protect-secure` along with a `readme.md`. I moved both files inside a new folder I created inside `\REACT` named `from protect secure`. I ran `yarn` and it successfuly installed.
 18. To start the Development Server and see the live server, I wrote:
  	`yarn run dev`	
-  
+
+PUBLISH TO GITHUB:
+
+1. Create a local git repository:
+     `git init`
+2. If there are uncommited files in the source control:
+     `git commit -m "Your comment"`
+3. Go to Github account and create a new Repo
+4. Copy the link of the repo.
+5. Type in the terminal in succession
+     > Map the remote repo link to local git repo:
+     > `git remote add origin <link>`
+     >
+     > Verifies the link to the remote repo:
+     > `git remote -v`
+     >
+     > Pushes to commited changes into the remote repo:
+     > `git push -u origin master`
+
+IF ERROR:
+     > error: src refspec master does not match any.  
+     > error: failed to push some refs to 'ssh://xxxxx.com/project.git'
+
+The most probable reason for this error is that all the files are untracked and have not been added. `git add --all` in case you wish to add all the files Or you can selectively add files. Then git `commit -m "Initial comment"`, `git push origin master`. This will surely work.
+
 ### Built with
 
 - Semantic HTML5 markup
