@@ -32,13 +32,13 @@
   flex-wrap: wrap;
 }
 .card-container::before {
-  content: "";
-  border-top: 7px solid var(--color-cyan);
-  left: 0;
-  right: 0;
-  top: 50%;
-  position: absolute;
-  transform: translateY(-50%);
+    content: '';
+    border-top: 7px solid var(--color-cyan);
+    left: 0;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
 }
 .cards:nth-child(1) {
   --indent: 0;
@@ -64,8 +64,7 @@
   position: absolute;
   width: 5rem;
   height: 5rem;
-  background-color: red;
-  top: 0;
+  background-color: var(--color-violet);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +117,7 @@
   .cards {
     margin-top: 2.4rem;
   }
-  .cards::before {
+  .cards-icon {
     width: 6rem;
     height: 6rem;
     left: 50%;
