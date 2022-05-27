@@ -7,13 +7,13 @@
 }
 
 :root {
-  --color-cyan:hsl(180, 66%, 49%);
-  --color-violet:hsl(257, 27%, 26%);
-  --color-red:hsl(0, 87%, 67%);
-  --color-gray:hsl(0, 0%, 75%);
-  --color-gray-violet:hsl(257, 7%, 63%);
-  --color-dark-blue:hsl(255, 11%, 22%);
-  --color-dark-violet:hsl(260, 8%, 14%);
+  --color-cyan: hsl(180, 66%, 49%);
+  --color-violet: hsl(257, 27%, 26%);
+  --color-red: hsl(0, 87%, 67%);
+  --color-gray: hsl(0, 1%, 63%);
+  --color-gray-violet: hsl(257, 7%, 63%);
+  --color-dark-blue: hsl(255, 11%, 22%);
+  --color-dark-violet: hsl(260, 8%, 14%);
   --color-white: #fff;
   --transition: all 2s ease;
 }
@@ -52,36 +52,64 @@ h3 {
   font-size: 1.3rem;
   line-height: 1.4rem;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--color-dark-blue);
 }
 
+.btn-2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--color-cyan);
+  border-radius: 50px;
+  border: 0;
+  font-family: "Poppins";
+  padding: 0.8rem 2.4rem;
+  display: inline-block;
+}
+
+.btn-1:hover,
+.btn-2:hover,
+form #submit:hover,
+.output-right button:hover {
+  background: rgb(124, 216, 216);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 940px) {
-  html {
-    font-size: 90%;
-  }
   .container {
     padding: 0 4rem;
   }
-  .header li {
-    font-size: 100%;
+  html {
+    font-size: 95%;
   }
-  .hero h1 {
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
     font-size: 4rem;
-  }
-  .hero p {
-    font-size: 0.8rem;
+    line-height: 4.5rem;
   }
 }
 
 @media screen and (max-width: 640px) {
-   h1 {
-    font-size: 75%;
-  }
   .container {
     padding: 0 2rem;
   }
-  .header li {
-    font-size: 100%;
+  h1 {
+    font-size: 3.6rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  html {
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 2.8rem;
+    line-height: 3rem;
   }
 }
