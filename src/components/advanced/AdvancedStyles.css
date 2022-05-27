@@ -60,25 +60,17 @@
   position: relative;
   margin-top: calc(var(--indent) * 2.5rem);
 }
-.cards::before {
+.cards-icon {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: red;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 5rem;
-  height: 5rem;
   border-radius: 50%;
-  background-color: var(--color-violet);
-  position: absolute;
   top: -2.5rem;
-}
-.cards:nth-child(1):before {
-  content: url(../../assets/icon-brand-recognition.svg);
-}
-.cards:nth-child(2):before {
-  content: url(../../assets/icon-detailed-records.svg);
-}
-.cards:nth-child(3):before {
-  content: url("../../assets/icon-fully-customizable.svg");
 }
 .cards p {
   margin-top: 1rem;
