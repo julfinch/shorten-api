@@ -7,7 +7,7 @@ import twitter from "../../assets/icon-twitter.svg";
 const Footer = () => {
   return (
     <>
-      <div className="footer">
+      <section className="footer">
         <div className="container">
           <div className="content">
             <div class="footer-grid-1">
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

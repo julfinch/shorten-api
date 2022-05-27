@@ -4,7 +4,7 @@ import heroBg from "../../assets/illustration-working.svg";
 const Hero = () => {
   return (
     <>
-      <div
+      <section
         className="hero"
         style={{
           backgroundImage: `url("${heroBg}")`,
@@ -24,7 +24,7 @@ const Hero = () => {
             <button className="btn-2">Get Started</button>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

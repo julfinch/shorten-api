@@ -5,7 +5,7 @@ import bgMobile from "../../assets/bg-boost-mobile.svg";
 const Boost = () => {
   return (
     <>
-      <div className="boost">
+      <section className="boost">
         <picture>
           <source media="max-width: 768px" srcSet={bgMobile} />
           <img src={bgDesktop} alt="" />
@@ -16,7 +16,7 @@ const Boost = () => {
             <button className="btn-2">Get Started</button>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
