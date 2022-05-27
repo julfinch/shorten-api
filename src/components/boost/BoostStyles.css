@@ -1,15 +1,14 @@
 .boost {
-  width: 100%;
   text-align: center;
   background-color: var(--color-violet);
   background-repeat: no-repeat;
   height: 15rem;
   position: relative;
+  max-width: 1240px;
 }
 
 .boost img {
   height: 15rem;
-  width: 1240px;
 }
 
 .boost .container {
