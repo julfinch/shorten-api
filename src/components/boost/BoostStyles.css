@@ -37,3 +37,9 @@
   margin-bottom: 1.5rem;
   width: 1240px;
 }
+
+@media screen and (max-width: 426px) {
+  .boost .content h2 {
+    font-size: 1.9rem;
+  }
+}
