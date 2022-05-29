@@ -1,5 +1,5 @@
-# Data Protect Website
-  -This react app was built using codesandbox.io 
+# Shortly 
+  - This react app was built using codesandbox.io 
   
 ## Table of contents
 
@@ -18,7 +18,7 @@
 
 ### Links
 
-- Live Site URL: [https://frabjous-eclair-f01ccc.netlify.app/](https://frabjous-eclair-f01ccc.netlify.app/)
+- Live Site URL: [https://vocal-marzipan-a1c9eb.netlify.app/](https://vocal-marzipan-a1c9eb.netlify.app/)
 
 ## Codesandbox React App
 
@@ -27,21 +27,27 @@
 3. Under **.src folder**, create an `assets` folder and `components` folder.
 4. In the `assets` folder, upload all the images from your local machine.
 5. In the `components` folder, create the following folders and the corresponding js and css files inside them:
-     > - cloud
-     >   - Cloud.js
-     >   - CloudStyles.css
-     > - data
-     >   - Data.js
-     >   - DataStyles.css
-     > - footer
-     >   - Footer.js
-     >   - FooterStyles.css
+     > - header
+     >   - Header.js
+     >   - HeaderStyles.css
      > - hero
      >   - Hero.js
      >   - HeroStyles.css
-     > - navbar
-     >   - Navbar.js
-     >   - NavbarStyles.css
+     > - advanced
+     >   - Advanced.js
+     >   - AdvancedStyles.css
+     > - shortener
+     >   - Shortener.js
+     >   - ShortenerStyles.css
+     > - links
+     >   - Links.js
+     >   - LinksStyles.css
+     > - boost
+     >   - Boost.js
+     >   - BoostStyles.css
+     > - footer
+     >   - Footer.js
+     >   - FooterStyles.css
 
 6. Install the following dependencies: 
      - react-icons
@@ -119,87 +125,7 @@
                font-size: 1.8rem;
           }
           }
-     ```
-
-8. Setting up the **SCROLL TO TOP** function inside the `<Footer />` :
-    - `import { BsFillArrowUpCircleFill } from 'react-icons/bs'`
-       ```js
-               const Footer = () => {
-               return (
-               <div className='footer'>
-                    <div className="container">
-                         <div className="top">
-                              <div className="logo-footer">
-                                   <SiDatabricks className='icon' />
-                                   <h2>Secured.</h2>
-                              </div>
-                              <Link activeClass="active" to="top" spy={true} duration={500} >
-                                   <BsFillArrowUpCircleFill className='icon' />
-                              </Link> 
-                         </div>
-                         <div className="col-container">
-                              <div className="col">
-                                   <h3>Navigation</h3>
-                                   <p>Home</p>
-          ```
-    - For the `<BsFillArrowUpCircleFill/>` to lead us to the `<Navbar />`, insert the `name='top'` inside the `<div className='navbar'>` :
-          ```js
-               return (
-                    <div name='top' className='navbar'>
-                         <div className='container'>
-          ```
-9. Put the social media icons by installing `react-icons` and by importing it :
-     ```js
-          import { SiDatabricks } from 'react-icons/si'
-          import { BsFillArrowUpCircleFill } from 'react-icons/bs'
-          import { FiMail, FiInstagram, FiFacebook, FiLinkedin, FiTwitter, FiGithub } from 'react-icons/fi'
-     ```
-     ```js
-          <form>
-               <h3>Join Our Team</h3>
-               <input type="email" placeholder='Enter your email'/>
-               <FiMail className='mail-icon' />
-               <div className="social-group">
-                    <FiInstagram className="social-icon" />
-                    <FiTwitter className="social-icon" />
-                    <FiFacebook className="social-icon" />
-                    <FiLinkedin className="social-icon" />
-                    <FiGithub className="social-icon" />
-               </div>
-          </form> 
-     ```
-10. Inside the `src` folder, create another folder named `routes`. Inside it, create the following JS pages:
-     - RecoveryPage.js
-     - CloudPage.js
-     - ContactPage.js
-11. Inside the `index.js`, to link the pages in our `<Navbar />`, install the `react-router-dom` as dependency and import the following:
-     **BE AWARE THAT THE RENDER PROCESS FOR COSESANDBOX IS DIFFERENT FROM WHEN YOU'RE USING VSCODE CREATE-REACT-APP **
-     ```js
-          import { createRoot } from "react-dom/client";
-          import "./styles.css";
-          import App from "./App";
-
-          import {BrowserRouter, Routes, Route} from 'react-router-dom';
-
-          import RecoveryPage from './routes/RecoveryPage';
-          import CloudPage from './routes/CloudPage';
-          import ContactPage from './routes/ContactPage';
-
-          const rootElement = document.getElementById("root");
-          const root = createRoot(rootElement);
-
-          root.render(
-               <BrowserRouter>
-                    <Routes>
-                         <Route path='/' element={<App />} />
-                         <Route path='/recovery' element={<RecoveryPage />} />
-                         <Route path='/cloud' element={<CloudPage />} />
-                         <Route path='/contact' element={<ContactPage />} />
-                    </Routes>
-               </BrowserRouter>
-          );
-    ```
-    
+     ```    
 ---
 
 ## Installing YARN
@@ -305,7 +231,6 @@ UNTRACKED FILES AND CAN'T COMMIT TO REPOSITORY:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- React Router DOM
 - ReactJS
 - Vite
 
