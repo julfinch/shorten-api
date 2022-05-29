@@ -166,7 +166,7 @@ The most probable reason for this error is that all the files are untracked and 
   >
   > Already up to date.
   >
-  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git remote -v`
+  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git remote -v `
   > origin  https://github.com/julfinch/shorten-api.git (fetch)
   > origin  https://github.com/julfinch/shorten-api.git (push)
   >
@@ -178,6 +178,7 @@ The most probable reason for this error is that all the files are untracked and 
   >     git push --set-upstream origin master
   > 
   > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git push --set-upstream origin master`  
+  >
   > Enumerating objects: 237, done.
   > Counting objects: 100% (237/237), done.
   > Delta compression using up to 2 threads
