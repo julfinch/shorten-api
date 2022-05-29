@@ -128,50 +128,6 @@
      ```    
 ---
 
-## Installing YARN
-[https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-yarn-package-manager-for-node-js](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-yarn-package-manager-for-node-js)
-
-1. I checked first to see if I have a yarn installed and see what version it is: 
-	`yarn —version`
-2. Output is: 
-	`1.22.18`
-3. I am inside `C:\Users\lenovo\Documents\webdev1_Jul\REACT` and already have a pre-made folder inside it named **\protect-secure**, to navigatte to that directory, I wrote in the terminal : 
-	`cd protect-secure`
-4. I then set the version to berry to download the current, actively developedd version of Yarn: 
-	`yarn set version berry`
-	![](./_readme_img/yarn-1-protect-secure.png)
-5. To chech if indeed the latest berry was installed, I wrote:
-	`yarn --version`
-6. Result was :
-	`3.2.1`
-7. To start a new yarn project, I wrote:
-	`yarn init`
-	![](./_readme_img/yarn-2-protect-secure.png)
-8. This command line created a `package.json` and `readme.md` inside **\REACT\protect-secure**
-
----
-
-## Create VITE App
-[https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-vite](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-vite)
-
-9. To start creating a VITE, I wrote:
-	`yarn create vite`
-10. It asked for a project name, I wrote:
-	`protect-secure`
-11. Then chose react on the following framework and variant:
-	`Select a framework: >> react`
-	`Select a variant: >> react`
-12. This resulted to another folder named **\protect-secure** inside another folder with the same name. The result was: `\webdev1_Jul\REACT\protect-secure\protect-secure`
-13. I opened the folder inside VSCode:
-	`cd protect-secure`
-14. Then install the dependencies:
-	`yarn`
-15. I met an error from here where it involves `yarn.lock` and `package.json` and it detects those files inside `C:\Users\lenovo` and is telling me to delete them.
-	![](./_readme_img/yarn-3-protect-secure.png)
-16. As a precaution, I just moved those 2 files that is inside it to another folder that I just made named **yarn and package json**. I wrote `yarn` again in the terminal but still the same error exists. Then I remembered that another `package.json` was created inside `webdev1_Jul\REACT\protect-secure` along with a `readme.md`. I moved both files inside a new folder I created inside `\REACT` named `from protect secure`. I ran `yarn` and it successfuly installed.
-18. To start the Development Server and see the live server, I wrote:
- 	`yarn run dev`	
-
 PUBLISHING TO GITHUB:
 
 1. Create a local git repository:
@@ -196,23 +152,25 @@ IF ERROR:
 
 The most probable reason for this error is that all the files are untracked and have not been added. `git add --all` in case you wish to add all the files Or you can selectively add files. Then git `commit -m "Initial comment"`, `git push origin master`. This will surely work.
 
+---
+
 UNTRACKED FILES AND CAN'T COMMIT TO REPOSITORY:
 
-  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> git branch --set-upstream-to=origin/main main
+  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git branch --set-upstream-to=origin/main main`
   > fatal: branch 'main' does not exist
-  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> git pull origin master
+  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git pull origin master`
   >  * branch            master     -> FETCH_HEAD
   > Already up to date.
-  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> git remote -v
+  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git remote -v`
   > origin  https://github.com/julfinch/shorten-api.git (fetch)
   > origin  https://github.com/julfinch/shorten-api.git (push)
-  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> git push
+  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git push`
   > fatal: The current branch master has no upstream branch.
   > To push the current branch and set the remote as upstream, use
   > 
   >     git push --set-upstream origin master
   > 
-  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> git push --set-upstream origin master  
+  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git push --set-upstream origin master`  
   > Enumerating objects: 237, done.
   > Counting objects: 100% (237/237), done.
   > Delta compression using up to 2 threads
@@ -225,7 +183,7 @@ UNTRACKED FILES AND CAN'T COMMIT TO REPOSITORY:
   > Branch 'master' set up to track remote branch 'master' from 'origin'.
   > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> 
 
-
+---
 
 ### Built with
 
