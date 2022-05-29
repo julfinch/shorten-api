@@ -166,8 +166,10 @@ The most probable reason for this error is that all the files are untracked and 
   >
   > Already up to date.
   >
-  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git remote -v `
+  > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git remote -v`
+  >
   > origin  https://github.com/julfinch/shorten-api.git (fetch)
+  >
   > origin  https://github.com/julfinch/shorten-api.git (push)
   >
   > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git push`
