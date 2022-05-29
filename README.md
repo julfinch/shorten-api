@@ -1,5 +1,5 @@
 # Shortly 
-  - This react app was built using codesandbox.io 
+  - REACTJs URL Shortener landing page using an API from https://shrtco.de/ and is a revision of the previous project of the same kind using HTML,CSS, and Javascript. This react app was built using codesandbox.io 
   
 ## Table of contents
 
