@@ -96,3 +96,9 @@
     margin-top: 2rem;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .footer-grid-5 {
+    width: 50%;
+  }
+}
