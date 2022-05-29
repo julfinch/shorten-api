@@ -79,7 +79,7 @@
   }
   .header nav {
     width: 90%;
-    height: 50vh;
+    height: 40vh;
     position: absolute;
     flex-direction: column;
     background-color: var(--color-violet);
