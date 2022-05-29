@@ -14,7 +14,7 @@
 
 ### Screenshot
 
-![](./_readme_img/protect-secure.png)
+![](./_readme_img/Shortly.png)
 
 ### Links
 
