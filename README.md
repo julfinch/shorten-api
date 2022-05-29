@@ -7,8 +7,8 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Codesandbox React App](#codesandbox-react-app)
-- [Installing Yarn](#installing-yarn)
-- [Create VITE App](#create-vite-app)
+- [Publishing to Github](#publish-to-github)
+- [Untracked Files - Can't Commit to Repo](#untracked-files)
 
 ## Overview
 
@@ -128,7 +128,7 @@
      ```    
 ---
 
-PUBLISHING TO GITHUB:
+## Publishing to Github:
 
 1. Create a local git repository:
      `git init`
@@ -154,17 +154,24 @@ The most probable reason for this error is that all the files are untracked and 
 
 ---
 
-UNTRACKED FILES AND CAN'T COMMIT TO REPOSITORY:
+## Untracked Files and can't commit to repository:
 
   > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git branch --set-upstream-to=origin/main main`
+  >
   > fatal: branch 'main' does not exist
+  >
   > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git pull origin master`
+  >
   >  * branch            master     -> FETCH_HEAD
+  >
   > Already up to date.
+  >
   > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git remote -v`
   > origin  https://github.com/julfinch/shorten-api.git (fetch)
   > origin  https://github.com/julfinch/shorten-api.git (push)
+  >
   > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> `git push`
+  >
   > fatal: The current branch master has no upstream branch.
   > To push the current branch and set the remote as upstream, use
   > 
@@ -178,9 +185,13 @@ UNTRACKED FILES AND CAN'T COMMIT TO REPOSITORY:
   > Writing objects: 100% (227/227), 23.16 MiB | 78.00 KiB/s, done.
   > Total 227 (delta 9), reused 0 (delta 0), pack-reused 0
   > remote: Resolving deltas: 100% (9/9), completed with 5 local objects.
+  >
   > To https://github.com/julfinch/shorten-api.git
+  >
   >    0bc4464..f5e9c93  master -> master
+  >
   > Branch 'master' set up to track remote branch 'master' from 'origin'.
+  >
   > PS C:\Users\lenovo\Documents\webdev1_Jul\REACT\shorten-api> 
 
 ---
