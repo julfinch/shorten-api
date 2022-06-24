@@ -1,4 +1,4 @@
-# Shortly 
+# Shortly - Live Site URL: [https://shortly-shortlink.netlify.app/](https://shortly-shortlink.netlify.app/)
   - REACTJs URL Shortener landing page using an API from https://shrtco.de/ and is a revision of the previous project of the same kind using HTML,CSS, and Javascript. This react app was built using codesandbox.io 
   
 ## Table of contents
@@ -18,7 +18,7 @@
 
 ### Links
 
-- Live Site URL: [https://vocal-marzipan-a1c9eb.netlify.app/](https://vocal-marzipan-a1c9eb.netlify.app/)
+- Live Site URL: [https://shortly-shortlink.netlify.app/](https://shortly-shortlink.netlify.app/)
 
 ## Codesandbox React App
 
